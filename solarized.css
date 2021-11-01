@@ -41,28 +41,11 @@ body {
 body ::-webkit-calendar-picker-indicator {
   filter: invert(1);
 }
-body ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
 body ::-webkit-scrollbar-thumb {
-  border-radius: 2em;
   background: rgba(0, 43, 54, 0.075);
 }
 body .gutter {
   background-color: transparent;
-}
-body h1 {
-  font-size: 2.5rem;
-  margin: 1em 0;
-}
-body h2 {
-  font-size: 2.2rem;
-  margin: 1em 0;
-}
-body h3 {
-  font-size: 1.8rem;
-  margin: 1em 0;
 }
 body .modal-header {
   border-bottom-color: #93a1a1;
@@ -89,24 +72,14 @@ body .ck-content hr {
 body textarea:focus, body input:focus {
   outline: none;
 }
-body .todo-list__label {
-  margin-bottom: 0;
-}
 body .ck-content .todo-list .todo-list__label > input:before {
   border: 1px solid var(--link-color);
-  border-radius: 2em;
 }
 body .ck-content .todo-list .todo-list__label > input[checked]::before {
   background-color: var(--link-color);
 }
 body .ck-content pre {
-  border: none;
-  border-radius: 0;
   background-color: #eee8d5;
-}
-body .calendar-widget .calendar-date, body .calendar-widget .calendar-week span {
-  font-size: 14px;
-  font-weight: 400;
 }
 body blockquote {
   color: #657b83;
@@ -299,28 +272,11 @@ body .cm-s-default .CodeMirror-activeline-background {
   body ::-webkit-calendar-picker-indicator {
     filter: invert(1);
   }
-  body ::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-  }
   body ::-webkit-scrollbar-thumb {
-    border-radius: 2em;
     background: rgba(253, 246, 227, 0.075);
   }
   body .gutter {
     background-color: transparent;
-  }
-  body h1 {
-    font-size: 2.5rem;
-    margin: 1em 0;
-  }
-  body h2 {
-    font-size: 2.2rem;
-    margin: 1em 0;
-  }
-  body h3 {
-    font-size: 1.8rem;
-    margin: 1em 0;
   }
   body .modal-header {
     border-bottom-color: #586e75;
@@ -347,24 +303,14 @@ body .cm-s-default .CodeMirror-activeline-background {
   body textarea:focus, body input:focus {
     outline: none;
   }
-  body .todo-list__label {
-    margin-bottom: 0;
-  }
   body .ck-content .todo-list .todo-list__label > input:before {
     border: 1px solid var(--link-color);
-    border-radius: 2em;
   }
   body .ck-content .todo-list .todo-list__label > input[checked]::before {
     background-color: var(--link-color);
   }
   body .ck-content pre {
-    border: none;
-    border-radius: 0;
     background-color: #073642;
-  }
-  body .calendar-widget .calendar-date, body .calendar-widget .calendar-week span {
-    font-size: 14px;
-    font-weight: 400;
   }
   body blockquote {
     color: #839496;

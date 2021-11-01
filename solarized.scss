@@ -88,33 +88,12 @@ $green: #859900;
       filter: invert(1);
     }
 
-    ::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
-
     ::-webkit-scrollbar-thumb {
-      border-radius: 2em;
       background: color.change($rebase03, $alpha: 0.075);
     }
 
     .gutter {
       background-color: transparent;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      margin: 1em 0;
-    }
-
-    h2 {
-      font-size: 2.2rem;
-      margin: 1em 0;
-    }
-
-    h3 {
-      font-size: 1.8rem;
-      margin: 1em 0;
     }
 
     .modal-header {
@@ -151,15 +130,10 @@ $green: #859900;
       outline: none;
     }
 
-    .todo-list__label {
-      margin-bottom: 0;
-    }
-
     .ck-content {
       .todo-list .todo-list__label {
         > input:before {
           border: 1px solid var(--link-color);
-          border-radius: 2em;
         }
         > input[checked]::before {
           background-color: var(--link-color);
@@ -167,15 +141,8 @@ $green: #859900;
       }
 
       pre {
-        border: none;
-        border-radius: 0;
         background-color: $rebase2;
       }
-    }
-
-    .calendar-widget .calendar-date, .calendar-widget .calendar-week span {
-      font-size: 14px;
-      font-weight: 400;
     }
 
     blockquote {
@@ -298,7 +265,6 @@ $green: #859900;
         background: color.change($rebase03, $alpha: 0.06);
       }
     }
-
   }
 }
 
